@@ -409,3 +409,15 @@ Cocktail
   margin-left: 30px;
   color: red;
 }
+
+.out-of-stock {
+  width: 100%;
+  right: 0px;
+  top: 0px;
+  background: var(--primaryColor);
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+}

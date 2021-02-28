@@ -9,6 +9,7 @@ const products = [
     comparePrice: 21.5,
     quantity: 2,
     urlComparePrice: "https://www.enbotella.com/vino/marques-de-riscal-xr/",
+    available: true,
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const products = [
     comparePrice: 21.5,
     quantity: 2,
     urlComparePrice: "https://www.enbotella.com/vino/marques-de-riscal-xr/",
+    available: true,
   },
   {
     id: 3,
@@ -32,6 +34,7 @@ const products = [
     quantity: 1,
     urlComparePrice:
       "https://www.alcampo.es/compra-online/bebidas/vino-tinto/toro-bierzo-y-castillaleon/otros-castilla-leon/lagar-de-robla-vino-tinto-75-cl/p/33046",
+    available: true,
   },
   {
     id: 4,
@@ -45,6 +48,7 @@ const products = [
     quantity: 3,
     urlComparePrice:
       "https://www.gulagalega.com/ginebra-ron-y-vodka/75-ginebra-master-makers-london-dry-gin-70-cl.html",
+    available: true,
   },
   {
     id: 5,
@@ -57,6 +61,7 @@ const products = [
     quantity: 1,
     urlComparePrice:
       "https://www.bodecall.com/destilados-y-licores/todos-los-destilados-y-licores/ish-detail",
+    available: false,
   },
   {
     id: 6,
@@ -68,6 +73,7 @@ const products = [
     comparePrice: 12,
     quantity: 1,
     urlComparePrice: "https://dmbrands.es/producto/sorel-london-dry-gin-70-cl/",
+    available: true,
   },
   {
     id: 7,
@@ -79,6 +85,7 @@ const products = [
     comparePrice: 12,
     quantity: 1,
     urlComparePrice: "https://dmbrands.es/producto/sorel-london-dry-gin-70-cl/",
+    available: false,
   },
   {
     id: 8,
@@ -91,6 +98,7 @@ const products = [
     quantity: 4,
     urlComparePrice:
       "https://deliciasartesanas.com/es/vermuts/vermut-rojo-ancora-de-silleiro",
+    available: false,
   },
 ];
 

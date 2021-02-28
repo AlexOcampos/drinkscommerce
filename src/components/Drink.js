@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Drink({ image, name, id, info }) {
+export default function Drink({ image, name, id, info, available }) {
   return (
     <article className="cocktail">
       <div className="img-container">
+        {available ? "" : <span class="out-of-stock">Agotado</span>}
         <img src={image} alt={name} />
       </div>
       <div className="cocktail-footer">

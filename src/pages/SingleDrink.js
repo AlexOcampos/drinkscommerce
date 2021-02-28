@@ -21,6 +21,7 @@ export default function SingleCocktail() {
         comparePrice,
         quantity,
         urlComparePrice,
+        available,
       } = drink[0];
 
       return (
@@ -29,6 +30,7 @@ export default function SingleCocktail() {
             Volver a inicio
           </Link>
           <h2 className="section-title">{name}</h2>
+          {available ? "" : <span className="out-of-stock">Agotado</span>}
           <div className="drink">
             <img src={"../" + image} alt={name}></img>
             <div className="drink-info">
